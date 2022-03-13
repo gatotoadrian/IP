@@ -16,3 +16,14 @@ body{
     margin-top: 155px;
     margin-bottom: 20px;
 }
+.article3{
+    position: relative;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.centered{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
