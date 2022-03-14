@@ -43,36 +43,46 @@
                         <div class="article4">
                             <h3>WHAT WE DO</h3>
                             <div class="introduction1">
-                                <div class="icon1">
-                                    <div id="design">
-                                        <img src="image/assets/services_icons/design_icon.png" alt="Design icon">
-                                        <h3><b>DESIGN</b></h3>
-                                    </div>                    
-                                    <div id="design">
-                                                                             <!-- <h3>PRODUCT MANAGEMENT</h3> -->   <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p>
-                                        <p>Throught your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
-                                    </div>                    
-                                </div>
-                                <div class="article5">
-                                    <div id="devevelopment">
-                                        <img src="image/assets/services_icons/dev_icon.png" alt="devevelopment icon" id="dev">
-                                        <h3>DEVELOPMENT</h3>
-                                    </div>                    
-                                    <div id="dev">
-                                        <h3><b>DEVELOPMENT</b></h3>
-                                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-                                    </div>                    
-                                </div>
-                                <div class="article6">
-                                    <div id="product">
-                                        <img src="image/assets/services_icons/product_icon.png" alt="Product icon" id="product">
-                                        <h3>PRODUCT MANAGEMENT</h3>
-                                    </div>                    
-                                    <div id="products">
-                                        <h3><b>PRODUCT MANAGEMENT</b></h3>
-                                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live</p>
-                                        <p>This iterative process allows for changes as business requirements evolve</p>
+                                <!-- <div class="container"> -->
+                                    <div class="col">
+                                        <div class="icon1">
+                                            <div class="col">
+                                                <div class="design">
+                                                    <img src="image/assets/services_icons/design_icon.png" alt="Design icon">
+                                                    <h3><b>DESIGN</b></h3>
+                                                </div>                    
+                                                <div class="designs">
+                                                                                        <!-- <h3>PRODUCT MANAGEMENT</h3> -->   <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</p>
+                                                    <p>Throught your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
+                                                </div>
+                                            </div>                    
+                                        </div>
+                                        <div class="article5">
+                                            <div class="col">
+                                                <div class="devevelopment">
+                                                    <img src="image/assets/services_icons/dev_icon.png" alt="devevelopment icon" id="dev">
+                                                    <h3>DEVELOPMENT</h3>
+                                                </div>                    
+                                                <div class="dev">
+                                                    <h3><b>DEVELOPMENT</b></h3>
+                                                    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                                                    <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                                                </div> 
+                                            </div>                   
+                                        </div>
+                                        <div class="article6">
+                                            <div class="col">
+                                                <div class="product">
+                                                    <img src="image/assets/services_icons/product_icon.png" alt="Product icon" id="product">
+                                                    <h3>PRODUCT MANAGEMENT</h3>
+                                                </div>                    
+                                                <div id="pro">
+                                                    <h3><b>PRODUCT MANAGEMENT</b></h3>
+                                                    <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live</p>
+                                                    <p>This iterative process allows for changes as business requirements evolve</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                         </div>
@@ -107,11 +117,11 @@
                                     <form action="https://formspree.io/f/xknyzwva" method="post" id="myForm">
                                         <h4>CONTACT US</h4>
                                         <div class="inputs text">
-                                            <input type="text" id="name" placeholder="Name...">
-                                        <input type="email" id="email" placeholder="Email...">
+                                            <input type="text" id="name" placeholder="Name..." required>
+                                        <input type="email" id="email" placeholder="Email..." required>
                                         </div>
                                         <div class="text">
-                                            <textarea name="" id="text" cols="17" rows="60" id="message" placeholder="Your message here..."></textarea>
+                                            <textarea name="" id="text" cols="50" rows="10" id="message" placeholder="Your message here..." required></textarea>
                                         </div>
                                         <div class="sbm">
                                             <button id="submit btn" type="submit">SUBMIT</button>

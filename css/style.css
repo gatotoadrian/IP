@@ -69,15 +69,12 @@ body{
     font-size: larger;
     font-display: bold;
     color: black;
-}
 #products{
-    display: none;
-}
-#products{
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 #myform{
     background: transparent;
+    border-spacing: 3px;
 }
 #name{
     background: transparent;
@@ -106,3 +103,14 @@ body{
     opacity: 0;
     transition: opacity 0.25s;
 }
+.project-overlay> *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.project-overlay:hover > *{
+    transform: translateY(0);
+}
+.project-overlay:hover{
+    opacity:0.8;
+}
+
