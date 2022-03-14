@@ -27,3 +27,14 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.article1{
+    position: relative;
+    text-align: center;
+    color: rgb(231, 226, 226)
+}
+.center{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
