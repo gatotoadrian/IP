@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("DEVELOPMENT").click(function(){
-    $("#dev").show();
+  $("products").click(function(){
+    $("p").show();
   });
 
 });

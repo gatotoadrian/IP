@@ -70,6 +70,6 @@ body{
     font-display: bold;
     color: black;
 }
-#PRODUCT{
-    
+#products{
+    display: none;
 }
