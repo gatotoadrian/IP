@@ -1,4 +1,6 @@
 $(document).ready(function(){
-  $("design").hide();
-  
+  $("DEVELOPMENT").click(function(){
+    $("#dev").show();
+  });
+
 });
