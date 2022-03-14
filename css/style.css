@@ -73,3 +73,36 @@ body{
 #products{
     display: none;
 }
+#products{
+    cursor: pointer;
+}
+#myform{
+    background: transparent;
+}
+#name{
+    background: transparent;
+}
+#email{
+    background: transparent;
+}
+#text{
+    background: transparent;
+}
+::placeholder{
+    color: white;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
