@@ -47,4 +47,5 @@ body{
     content: "";
     clear: both;
     display: table;
+    /* width: 100%; */
 }
