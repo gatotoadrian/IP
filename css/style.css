@@ -86,29 +86,67 @@ body{
 ::placeholder{
     color: white;
 }
-.images{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
+
+/* .Row{
+float: left;
+width: 400px;
+height:400px 
+} */
+/* .article5{
+width: 400px;
+height:203px     */
+/* } */
+/* .article6{   
+width: 400px;
+height:400px  */
+/* } */
+.iconcontainer{
+display: flex;
+text-align: center;
 }
-.images> *{
-    transform: translateY(20px);
-    transition: transform 0.25s;
+ul{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+width: 80%;
+width: 70%;
+margin: auto;
+
+ }
+
+li{
+position: relative;
+width: 200px;
+height: 300px;
+height: auto;
+padding: 5px;
+margin:0 0.5rem;
+max-width: 100%;
+height: auto;
 }
-.images:hover > *{
+.project-overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background:white;
+color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s;
+}
+.project-overlay> *{
+transform: translateY(20px);
+transition: transform 0.25s;
+}
+.project-overlay:hover > *{
     transform: translateY(0);
 }
-.images:hover{
-    opacity:0.8;
+.project-overlay:hover{
+opacity:0.8;
 }
-
