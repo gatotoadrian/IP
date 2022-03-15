@@ -52,6 +52,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    position: relative;
 }
 .article7{
     position: relative;
@@ -68,10 +69,7 @@ body{
     font-weight: 700;
     font-size: larger;
     font-display: bold;
-    color: black;
-#products{
-    /* cursor: pointer; */
-}
+    color: black;}
 #myform{
     background: transparent;
     border-spacing: 3px;
@@ -88,7 +86,7 @@ body{
 ::placeholder{
     color: white;
 }
-.overlay{
+.images{
     position: absolute;
     top: 0;
     left: 0;
@@ -103,14 +101,14 @@ body{
     opacity: 0;
     transition: opacity 0.25s;
 }
-.project-overlay> *{
+.images> *{
     transform: translateY(20px);
     transition: transform 0.25s;
 }
-.project-overlay:hover > *{
+.images:hover > *{
     transform: translateY(0);
 }
-.project-overlay:hover{
+.images:hover{
     opacity:0.8;
 }
 
